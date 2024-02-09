@@ -1,0 +1,63 @@
+#pageTitle
+{
+    font-size: 2vw;
+    font-weight: normal;
+    color: black;
+    background-image: url(images/mountain_waves.jpg);
+    background-size: 100vw;
+    background-repeat: no-repeat;
+    text-align: center;
+    font-family: garamond;
+}
+
+.menu
+{
+    font-size: 2vw;
+    color: rgb(250, 247, 247);
+}
+
+.medalhas
+{
+    font-size: 2vw;
+    color:black;
+    text-align: left;
+}   
+
+#studies
+{   font-size: 1vw;
+    color:black;
+    text-align: left;
+}
+
+#grad
+{   height: 100%;
+    background-image: linear-gradient(to bottom,rgb(8, 8, 241),rgb(87, 198, 250));
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 33.33%;
+    color: white;
+  }
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+    color: white;
+  }
+    
+.column2 {
+    float: left;
+    width: 50%;
+    font-size: 2vw;
+    font-display: block;
+  }
+  
+.row2:after {
+    content: "";
+    display: table;
+    clear: both;
+    right: 3vw;
+  }
